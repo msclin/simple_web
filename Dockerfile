@@ -5,7 +5,7 @@ ARG webapp_user=user
 LABEL location="New York" type="Data Center" role="Web Server"
 LABEL maintainer="marc@example.com"
 LABEL version = "1.0"
-ENV REFRESHED_AT 2020-08-20
+ENV REFRESHED_AT 2020-08-21
 WORKDIR /fn_aft
 RUN apt-get update
 
